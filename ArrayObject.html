@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects and Arrays</title>
+</head>
+
+<body>
+
+    <script>
+
+const data = [
+  { principal: 2500, time: 1.8 },
+  { principal: 1000, time: 5 },
+  { principal: 3000, time: 1 },
+  { principal: 2000, time: 3 },
+]
+
+/**
+ *
+ * @param {{principal:number;time:number}[]} arr
+ */
+ function interestCalculator(arr) {
+  return arr.map(function (el) {
+    let rate = 1
+    if (el.principal >= 2500 && el.time > 1 && el.time < 3) {
+      rate = 3
+    } else if (el.principal >= 2500 && el.time >= 3) {
+      rate = 4
+    } else if (el.principal < 2500 || el.time <= 1) {
+      rate = 2
+    }
+    let interest = (el.principal * rate * el.time) / 100
+    el.rate = rate
+    el.interest = interest
+    return el
+  })
+}
+console.log(interestCalculator(data));
+    
+    </script>
+
+</body>
+</html>

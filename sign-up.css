@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #062863;
+	background-size: 150px;
+	background-image: url(Piggyimage1.png),
+	url(Piggyimage2.png), url(Piggyimage3.png), url(Piggyimage4.png);
+	background-position: top left, top right, bottom left, bottom right;
+	background-repeat: no-repeat;
+	position: relative;
+
+	font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,
+	helvetica neue,Arial,noto sans,sans-serif,apple color emoji, segoe ui emoji,
+	segoe ui symbol,noto color emoji;
+    line-height: 1.5;
+}
+
+.form1{
+	background: white;
+	width: 35%;
+	margin-left: 33%;
+	margin-top: 3.5%;
+	border-radius: 20px 20px 20px 0px;
+
+}
+
+form{
+	margin-left: 1cm;
+	
+}
+
+input{
+  	padding: 25px ;
+	box-sizing: border-box;	   
+	margin: 8px 0;
+	width: 90%;
+	background-color: #ADD8E6;
+	border: none;
+	box-sizing: border-box;
+	opacity: 0.2;
+	border-radius: 7px;
+	font-weight: bolder;
+}
+
+button {
+	background-color: #062863; 
+	border: none;
+	color: white;
+	padding: 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 15px 15px 15px 0px;
+	width: 90%;
+}
+
+h2{
+	text-align: center;
+	padding-top: 10%;
+	color: #062863;
+	margin-bottom: 1%;
+
+}
+
+p{
+	text-align: center;
+	font-size: 15px;
+	margin-top: -1%;
+	margin-bottom: 8%;
+	
+	
+}
+
+#choose{
+	width: 90%;
+	padding: 25px;
+	border: none;
+	background-color: #ADD8E6;
+	box-sizing: border-box;
+	border-radius: 8px;
+	opacity: 0.2;
+}
+
+a{
+	margin-top: 10px;
+	color: whitesmoke;
+	margin-left: 40%;
+	text-decoration: none;
+}
+

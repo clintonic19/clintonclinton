@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #062863;
+}
+
+.pics{
+    text-align: center;
+    position: fixed;
+    max-width: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    left: 1%;
+    color: whitesmoke;
+    border-radius: 5px;   
+}
+
+.profile{
+    background-color: whitesmoke;
+    width: 50%;
+    border-radius: 5px;
+    text-align: justify;
+    margin: 60px ;
+    margin-left: 30%;
+    padding: 10px 30px 10px 30px;
+    font-family: Verdana;
+    font-size: medium;
+}
+
+.form{
+    margin-left: 30%;
+    padding: 15px;
+    color: whitesmoke;
+    font-family: Verdana;
+    font-size: small;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    resize: vertical;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    color: blue;
+    padding: 10px;
+    margin-left: 0cm;
+    border-radius: 5px;
+    border: none;
+    font-weight: 900;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.name{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.design{
+    margin-bottom: 5px;
+    font-size: 15px;
+
+}
+
+.email{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.address{
+    margin-bottom: 5px;
+    font-size: 12px;
+}

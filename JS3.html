@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funtion</title>
+</head>
+
+<body>
+
+    <script>
+                                function parameter(integer) {
+                                  var numbersArray = [];
+                                  var parameter = [];
+                                  for (var n = 1; n <= integer; n++){
+                                    numbersArray.push(n);
+                                  }
+
+                                  for(var n = 0; n < numbersArray.length; n++){
+                                    if(numbersArray[n]%2 ==0){
+                                      parameter.push('yu');
+                                    }
+                                    else if(numbersArray[n]%3 ==0){
+                                      parameter.push('gi');
+                                    }
+                                    else if(numbersArray[n]%5 ==0){
+                                     parameter.push('oh');
+                                    }
+                                    else{
+                                      parameter.push(n+1);
+                                    }
+
+                                  }
+                                  return parameter;                                 
+                                }
+                                console.log(parameter(10));
+    
+    </script>
+
+</body>
+</html>
